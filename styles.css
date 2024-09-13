@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0; /* Remove a margem padrão */
+}
+
+body{ /* fundo */
+    background: url(images/fundo.jpg); /* url do background */
+    background-size: cover; /* Faz com que a imagem cubra toda a área do body */
+    background-position: center; /* Centraliza a imagem na tela */
+
+}
+
+header{ /* logo */
+    display: flex; /* alinhar logo */
+    justify-content: center; /* alinhar logo */
+}
+
+.video_inicial{ /* video inicial */
+    display: flex; /* alinhar video */
+    justify-content: center; /* alinhar video */
+    height: 65%; /* redimensionar tamanho */
+}
+
+#controle{ /* snes */
+    display: flex; /*  alinhar foto */
+    justify-content: center; /*  alinhar foto */
+    margin: 30px; /*  margem  */
+}
+
+#sinopse{ /* texto */
+    background-color: hsla(198, 78%, 52%, 0.214); /* cor de fundo */
+    font-family: "Acme", sans-serif; /* fonte */
+    font-size: 23px; /*  tamanho fonte */
+    width: 110rem; /*  redimensionar tamanho */
+    align-items: center; /*  alinhar texto */
+    margin: 0 auto; /*  alinhar texto */
+}
+
+p{  /* paragrafo paginas */
+    font-family: "Acme", sans-serif; /* fonte */
+    font-size: 25px; /*  tamanho fonte */
+    text-align: center; /*  alinhar texto */
+}
+
+.video{  /* video paginas */
+    display: flex; /*  alinhar video */
+    justify-content: center; /* alinhar video */
+    margin: 20px; /*  margem  */
+}
+
+.videostart{
+    display: flex; /* alinhar video */
+    justify-content: center; /* alinhar video*/
+    height: 40%; /* redimensionar video */
+    margin: 20px; /*  margem  */
+}
+
+.link{
+    display: flex; /*  alinhar link */
+    justify-content: center; /* alinhar link */
+    font-size: 20px; /*  tamanho fonte */
+}
